@@ -1,15 +1,18 @@
 # KerasWrapper
-Keras bindings for Pharo
+Keras bindings for Pharo. This binding allows to use Keras (implemented in Python) within Pharo. For the Pharo programmer, the fact that Keras is written in Python is completely transparent.
 
 # Installing KerasWrapper
 
+The following code loads the KerasWrapper in Pharo:
+
 ```Smalltalk
 Gofer it
-    smalltalkhubUser: 'ainfante' project: 'Keras-Wrapper';
+    smalltalkhubUser: 'ObjectProfile' project: 'Keras-Wrapper';
     configurationOf: 'KerasWrapper';
     loadDevelopment.
 ```  
-Also remember to follow the instructions of the Help menu to load Python, Tensorflow and Keras. Just open the world menu in Pharo and go to the Installation Guide.
+
+You then needs to install Python, TensorFlow, and Keras. In the help menu, we provide detalled instruction on how to do so.
 
 # Simple Example
 
