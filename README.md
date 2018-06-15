@@ -37,6 +37,6 @@ fitData := (model
 ```
 
 Evaluating the code produce the following:
-[simple xor](img/simpleXOR.png)
+![simple xor](img/simpleXOR.png)
 
 The Pharo code given above is inspired from the [pure python version](https://gist.github.com/stewartpark/187895beb89f0a1b3a54)
