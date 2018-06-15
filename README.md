@@ -13,4 +13,25 @@ Also remember to follow the instructions of the Help menu to load Python, Tensor
 
 # Simple Example
 
-TODO
+Here is the XOR simple example in Pharo
+
+```Smalltalk
+inputs := {{0 . 0}.
+	{0 . 1}.
+	{1 . 0}.
+	{1 . 1}}.
+expectedOutputs := {0 . 1 . 1 . 0}.
+model := KNSequentialModel inputDim: 2.
+model add: (KNDenseLayer neurons: 8).
+model add: KNTanHActivation new.
+model add: (KNDenseLayer neurons: 1).
+model add: KNSigmoidActivation new.
+model compileLoss: KNBinaryCrossentropyLoss new optimizer: (KNSGDOptimizer new learningRate: 0.1).
+fitData := (model
+		fit: inputs
+		labels: expectedOutputs
+		epochs: 200) waitForValue.
+```
+
+Evaluating the code produce the following:
+
