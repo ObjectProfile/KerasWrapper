@@ -37,4 +37,4 @@ fitData := (model
 ```
 
 Evaluating the code produce the following:
-
+[simple xor](img/simpleXOR.png)
