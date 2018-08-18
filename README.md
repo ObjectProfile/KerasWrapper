@@ -7,7 +7,7 @@ The following code loads the KerasWrapper in Pharo:
 
 ```Smalltalk
 Gofer it
-    smalltalkhubUser: 'ObjectProfile' project: 'Keras-Wrapper';
+    smalltalkhubUser: 'ainfante' project: 'Keras-Wrapper';
     configurationOf: 'KerasWrapper';
     loadDevelopment.
 ```  
