@@ -1,5 +1,5 @@
 # KerasWrapper
-Keras bindings for Pharo. This binding allows to use Keras (implemented in Python) within Pharo. For the Pharo programmer, the fact that Keras is written in Python is completely transparent.
+[Keras](https://keras.io) bindings for Pharo. This binding allows to use Keras (implemented in Python) within Pharo. For the Pharo programmer, the fact that Keras is written in Python is completely transparent.
 
 # Installing KerasWrapper
 
